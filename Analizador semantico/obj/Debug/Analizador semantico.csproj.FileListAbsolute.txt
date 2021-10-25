@@ -1,0 +1,10 @@
+C:\Users\LUIS\Desktop\3-21\COMPILADORES\Analizador semantico\Analizador semantico\bin\Debug\Analizador semantico.exe.config
+C:\Users\LUIS\Desktop\3-21\COMPILADORES\Analizador semantico\Analizador semantico\bin\Debug\Analizador semantico.exe
+C:\Users\LUIS\Desktop\3-21\COMPILADORES\Analizador semantico\Analizador semantico\bin\Debug\Analizador semantico.pdb
+C:\Users\LUIS\Desktop\3-21\COMPILADORES\Analizador semantico\Analizador semantico\obj\Debug\Analizador semantico.csproj.AssemblyReference.cache
+C:\Users\LUIS\Desktop\3-21\COMPILADORES\Analizador semantico\Analizador semantico\obj\Debug\Analizador_semantico.Form1.resources
+C:\Users\LUIS\Desktop\3-21\COMPILADORES\Analizador semantico\Analizador semantico\obj\Debug\Analizador_semantico.Properties.Resources.resources
+C:\Users\LUIS\Desktop\3-21\COMPILADORES\Analizador semantico\Analizador semantico\obj\Debug\Analizador semantico.csproj.GenerateResource.cache
+C:\Users\LUIS\Desktop\3-21\COMPILADORES\Analizador semantico\Analizador semantico\obj\Debug\Analizador semantico.csproj.CoreCompileInputs.cache
+C:\Users\LUIS\Desktop\3-21\COMPILADORES\Analizador semantico\Analizador semantico\obj\Debug\Analizador semantico.exe
+C:\Users\LUIS\Desktop\3-21\COMPILADORES\Analizador semantico\Analizador semantico\obj\Debug\Analizador semantico.pdb
