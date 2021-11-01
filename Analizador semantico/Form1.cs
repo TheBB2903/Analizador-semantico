@@ -43,17 +43,17 @@ namespace Analizador_semantico
 
         private void button1_Click(object sender, EventArgs e)
         {
-            dataGridView1.Rows.Clear();
+            dataGridView2.Rows.Clear();
             label3.Text = "";
             this.Analizar();
 
             int contador_errores = 0;
             for (int x = 0; x < dataGridView2.RowCount; x++)
             {
-                if ((dataGridView1.Rows[x].Cells[1].Value?.ToString()).Equals("ERROR"))
+                if ((dataGridView2.Rows[x].Cells[1].Value.ToString()).Equals("ERROR"))
                 {
                     contador_errores += 1;
-                    dataGridView1.Rows[x].DefaultCellStyle.BackColor = Color.Pink;
+                    dataGridView2.Rows[x].DefaultCellStyle.BackColor = Color.Pink;
 
                 }
             }

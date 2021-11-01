@@ -29,7 +29,6 @@ namespace Analizador_semantico
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.RichTextBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -41,18 +40,10 @@ namespace Analizador_semantico
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(12, 76);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(542, 327);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "";
-            this.textBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // dataGridView2
             // 
@@ -99,21 +90,25 @@ namespace Analizador_semantico
             // 
             this.c1.HeaderText = "LEXEMA";
             this.c1.Name = "c1";
+            this.c1.ReadOnly = true;
             // 
             // c2
             // 
             this.c2.HeaderText = "TOKEN";
             this.c2.Name = "c2";
+            this.c2.ReadOnly = true;
             // 
             // c3
             // 
             this.c3.HeaderText = "LINEA";
             this.c3.Name = "c3";
+            this.c3.ReadOnly = true;
             // 
             // c4
             // 
             this.c4.HeaderText = "COLUMNA";
             this.c4.Name = "c4";
+            this.c4.ReadOnly = true;
             // 
             // button1
             // 
@@ -137,26 +132,30 @@ namespace Analizador_semantico
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Red;
             this.label3.Location = new System.Drawing.Point(12, 406);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(240, 25);
-            this.label3.TabIndex = 10;
+            this.label3.Size = new System.Drawing.Size(115, 13);
+            this.label3.TabIndex = 5;
             this.label3.Text = "ERRORES POSIBLES";
-            this.label3.Visible = false;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(15, 76);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(538, 20);
+            this.textBox1.TabIndex = 6;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1016, 657);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.dataGridView2);
-            this.Controls.Add(this.textBox1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -168,8 +167,6 @@ namespace Analizador_semantico
         }
 
         #endregion
-
-        private System.Windows.Forms.RichTextBox textBox1;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn c1;
@@ -181,6 +178,7 @@ namespace Analizador_semantico
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
